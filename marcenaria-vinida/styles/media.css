@@ -1,0 +1,28 @@
+@media screen and (max-width: 760px) {
+    header {
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 0px;
+    }
+
+    li {
+        margin: auto;
+        margin: 6px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        margin: auto;
+        margin: 0px 10px;
+        line-height: 20px;
+    }
+}

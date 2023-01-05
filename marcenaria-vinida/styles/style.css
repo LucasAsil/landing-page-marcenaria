@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../images/background_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    margin: 15px;
+    font-family: handwriting_draft;
+    color: white;
+    flex-direction: column;
+    line-height: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2C2836;
+    transition: 0.3s all;
+}
+
+aside {
+   text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form [type="submit"] {
+    height: 40px;
+    width: 266px;
+    background-color: #2C2836;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+form [type="submit"]:hover {
+    background-color: white;
+    color: #2C2836;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+input {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 56px;
+    color: white;
+}
+
+p {
+    line-height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}

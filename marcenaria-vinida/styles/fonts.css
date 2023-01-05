@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "handwriting_draft";
+    src: url(../fonts/handwriting-draft_free-version.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "danis_handwriting_2";
+    src: url(../fonts/DanisHandwriting-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "creative_happiness";
+    src: url(../fonts/Creative\ Happiness.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
